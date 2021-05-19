@@ -2,12 +2,12 @@
 
 exports.config = {
   //TAT Selenium GRID
-  seleniumAddress: 'http://selenium-grid.sebank.se:4446/wd/hub',
-
+  //seleniumAddress: 'http://selenium-grid.sebank.se:4446/wd/hub',
+  seleniumAddress: 'http://localhost:4545/wd/hub',
   // Capabilities to be passed to Selenium GRID
   capabilities: {
     'browserName': 'chrome',
-    'platformName': 'WINDOWS'
+   // 'platformName': 'WINDOWS'
   },
 
   // Framework to use. Jasmine is recommended.
